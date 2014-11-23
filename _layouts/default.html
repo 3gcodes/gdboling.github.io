@@ -16,11 +16,17 @@
           <div class="well">
                     <h4>Blog Search</h4>
                     <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
+                      <form onsubmit="search_google()" class="form-inline">
+                        <div class="form-group">
+                          <div class="input-group">
+                            <label class="sr-only" for="google-search">Search</label>
+                            <input type="text" class="form-control" id="google-search">
+                          </div>
+                        </div>
+                        <button class="btn btn-default" type="button">
                                 <span class="glyphicon glyphicon-search"></span>
                         </button>
+                      </form>
                         </span>
                     </div>
                     <!-- /.input-group -->
@@ -78,5 +84,10 @@
     {% include footer.html %}
 
   </body>
-
+<script language="Javascript" type="text/javascript">
+  function search_google() {
+    var query = document.getElementById("google-search").value;
+    window.open("http://google.com/search?q=" + query + "%20site:" + "http://gdboling.github.io");
+  }
+</script>
 </html>
