@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<div class="home">
-
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
@@ -30,8 +28,4 @@ layout: default
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
-</div>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  </div>
