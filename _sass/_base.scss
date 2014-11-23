@@ -156,7 +156,6 @@ pre {
 .wrapper {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
-    margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
@@ -201,4 +200,12 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/** 
+ * Link lists
+ */
+.link-list {
+    list-style: none;
+    margin: 0;
 }
