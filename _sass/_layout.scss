@@ -157,6 +157,7 @@ footer.navbar-fixed-bottom {
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    margin-bottom: 5px;
 }
 
 .post-link {
@@ -183,12 +184,17 @@ footer.navbar-fixed-bottom {
     }
 }
 
+.post-list {
+    h2 {
+        margin-bottom: 5px;
+    }
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
 
     h2 {
         font-size: 32px;
-
         @include media-query($on-laptop) {
             font-size: 28px;
         }
