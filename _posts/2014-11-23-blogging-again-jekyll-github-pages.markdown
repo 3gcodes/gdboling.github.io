@@ -3,11 +3,11 @@ layout: post
 title:  "Blogging Again: Jekyll on Github Pages"
 date:   2014-11-23 13:00:00
 ---
-For the past year I've been extremely blessed and fortunate to have a lot of work which means I've been extremely busy. A lot of extra things in my life have had to be put on the back burner and blogging is one of those things. Last week I start re-evaulating my priorities to try and be more efficient in my daily tasks and I realized that I really miss blogging. I've come up with a way to add it back in to my work load but that also means I needed to come up with a super effeciant way to blog.
+For the past year I've been extremely blessed and fortunate to have a lot of work which means I've been extremely busy. A lot of extra things in my life have had to be put on the back burner and blogging is one of those things. Last week I start re-evaulating my priorities to try and be more efficient in my daily tasks and I realized that I really miss blogging. I've come up with a way to add it back in to my work load but that also means I needed to come up with a super efficient way to blog.
 
 While probably the simplest approach, I despise Wordpress with a fiery passion. No matter the amount of tweaking I do or servers I throw it on, I cannot get it to perform the way I'd like. Writing posts via their interface is painful. I'm constently trying to tweak themes in a structure that no sane person could have imagined. And then there is plugin hell. Also, I've always wondered why blogs need to be stored in databases.
 
-My "current" blog, and by current I mean the one I'm replacing with this, uses Octopress. I like Octopress for the most part but it still feels like too much. Then the other day I ran across Bruce Eckel's article on switching to Github Page from Artima. In his article he says
+My "current" blog, and by current I mean the one I'm replacing with this, uses [Octopress][octopress]. I like Octopress for the most part but it still feels like too much. Then the other day I ran across Bruce Eckel's article on switching to Github Page from Artima. In his article he says
 
 <blockquote>
 There’s been a big movement in recent years to static site generators for blogs. These are more efficient (they only get served, not dynamically created) and safer (also because they are not dynamic). Much of the material on the internet doesn’t need to be dynamically generated, and blogs are a particularly good example.
@@ -38,3 +38,4 @@ Here are the links I promised:
 
 [jekyll]:		http://jekyllrb.com
 [bruce]:		https://bruceeckel.github.io/
+[octopress]: 	http://octopress.org/
