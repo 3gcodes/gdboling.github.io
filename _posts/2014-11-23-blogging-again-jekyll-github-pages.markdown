@@ -34,8 +34,10 @@ I'm not going to spend a lot of time migrating my old blog over. I'll simply arc
 Here are the links I promised:
 
 * [Jekyll docs][jekyll]
+* [Jekyll and Github Pages][jekyll-gh]
 * [Bruce Eckel: Using Github Pages for Blogging][bruce]
 
 [jekyll]:		http://jekyllrb.com
+[jekyll-gh]: 	http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/
 [bruce]:		https://bruceeckel.github.io/
 [octopress]: 	http://octopress.org/
