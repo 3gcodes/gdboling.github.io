@@ -24,7 +24,7 @@ I learned that the `jk.conf` file specified the path to the `workers.properties`
 In this file is a line with the following:
 
 {% highlight python %}
-worker.escotest01.reply_timeout=20000
+worker.worker1.reply_timeout=20000
 {% endhighlight %}
 
 Increasing that timeout and then restarting both Apache and Tomcat solved my problem.
