@@ -3,7 +3,7 @@ layout: post
 title:  "Tomcat Manager Deployment: 504 Proxy Timeout"
 date:   2014-12-02 14:00:00
 ---
-I recently needed to setup deployments to Tomcat 7 via Jenkins for a client. This particular Tomcat 7 configuration uses mod_jk to proxy requests from Apache HTTP to Tomcat and back. I generally use mod_proxy for this so I had a bid of a learning curve when it came to solving this problem.
+I recently needed to setup deployments to Tomcat 7 via Jenkins for a client. This particular Tomcat 7 configuration uses mod_jk to proxy requests from Apache HTTP to Tomcat and back. I generally use mod_proxy for this so I had a bit of a learning curve when it came to solving this problem.
 
 The problem was that every time I would deploy a WAR through Tomcat's Manager, Tomcat would seem to timeout with the following exception:
 
