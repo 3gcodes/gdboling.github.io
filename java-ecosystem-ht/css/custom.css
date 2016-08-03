@@ -10,8 +10,9 @@ body {
 }
 
 body > div.reveal:after {
-  content: 'devict.slack.com';
+  content: 'High Touch Technologies';
   font-style: normal;
+  font-size: 18px;
   position: absolute;
   bottom: 10px;
   left: 10px;
