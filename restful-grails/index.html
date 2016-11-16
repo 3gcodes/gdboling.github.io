@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Creating REST API's with Grails</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="Gregg Bolinger">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>Creating REST API's with Grails</h2>
+					<img width="350" src="assets/images/grails_logo.png" alt="Grails Banner" />
+				</section>
+
+				<section>
+					<h2>About Me</h2>
+					<h3>Gregg Bolinger</h3>
+					<ul>
+						<li>Software Engineer / Architect @ High Touch Technologies</li>
+						<li>Software Engineering Consultant for 7 years</li>
+						<li>15 Years in Software Development</li>
+						<li>Avid Tabletop Gamer</li>
+						<li><a href="http://www.greggbolinger.com">www.greggbolinger.com</a></li>
+						<li><a href="http://twitter.com/gdbolinger">@gdbolinger</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What is Grails?</h2>
+					<p class="fragment">Grails is a powerful web framework, for the Java platform aimed at multiplying developers’ productivity thanks to Convention-over-Configuration, sensible defaults and opinionated APIs. It integrates smoothly with the JVM, allowing you to be immediately productive whilst providing powerful features, including integrated ORM, Domain-Specific Languages, runtime and compile-time meta-programming and Asynchronous programming. (<a href="https://grails.org/">https://grails.org/</a>)</p>
+				</section>
+
+				<section>
+					<h2>Grails Guts</h2>
+					<p class="fragment"><img width="150" src="assets/images/spill.png" alt="Grails Banner" /></p>
+					<p class="fragment">Spring Framework / Spring Boot</p>
+					<p class="fragment">JPA/Hibernate (ORM)</p>
+					<p class="fragment">Groovy Language</p>
+					<p class="fragment">Gradle Build System</p>
+					<p class="fragment">Extensive Plugin Ecosystem</p>
+				</section>
+
+				<section>
+					<h2>Who Uses Grails?</h2>
+					<small>I stole this</small>
+					<img src="assets/images/using.png" alt="using" />
+				</section>
+
+				<section>
+					<h2>Where Have I Used Grails?</h2>
+					<p class="fragment">Manning Publications</p>
+					<p class="fragment">ESCO</p>
+					<p class="fragment">Markel Corp</p>
+					<p class="fragment">GenRocket</p>
+				</section>
+
+				<section>
+					<h2>Not Covered in Depth</h2>
+					<p class="fragment">Groovy except as a Grails explanation</p>
+					<p class="fragment">Gradle except as a Grails explanation</p>
+					<p class="fragment">Spock except as a Grails explanation</p>
+					<p class="fragment">IntelliJ IDEA</p>
+					<p class="fragment">REST / REST Architecture / HTTP</p>
+				</section>
+
+				<section>
+					<h2>Live Coding</h2>
+					<h4>Ask Questions</h4>
+					<img width=700 src="assets/images/live-coding.jpg" alt="Live Coding" />
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

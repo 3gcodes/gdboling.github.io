@@ -1,0 +1,24 @@
+body {
+  background-image: url(../assets/images/java_banner.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 80px;
+}
+
+.list-sm p {
+  font-size: 24px;
+}
+
+body > div.reveal:after {
+  content: 'devict.slack.com #java';
+  font-style: normal;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.reveal section img {
+    border: none;
+    box-shadow: none;
+}
